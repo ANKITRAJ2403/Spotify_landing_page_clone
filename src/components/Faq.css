@@ -1,0 +1,35 @@
+.faq-container{
+    padding: 75px 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.faq-inner-container{
+    margin: 20px auto;
+}
+.faq-list{
+    display: block;
+    padding: 0;
+    
+}
+.faq-list li{
+    display: block;
+    
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 26px 28px;
+    transition: 0.1s ;
+}
+.faq-list li div{
+    justify-content: space-between;
+    display: flex;
+}
+.faq-svg{
+    transform: rotate(180deg);
+}
+
+.faq-list li:hover{
+    text-decoration: underline;
+    background-color: #f6f6f6;
+}

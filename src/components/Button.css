@@ -1,0 +1,15 @@
+
+.btn a{
+    padding: 16px 32px;
+    color: #000;
+    background: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 500px;
+    font-size: 14px;
+    transition: 0.01s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}

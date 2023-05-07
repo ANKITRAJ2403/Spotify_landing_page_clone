@@ -1,0 +1,37 @@
+.feature-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    padding: 75px 18px;
+}
+
+.feature-card{
+    display: flex;
+    margin-top: 42px;
+    padding: 0 10px;
+}
+img{
+    margin: 0px auto 40px;
+    height: 142px;
+    width: 142px;
+}
+.feature-image-container{
+    display: flex;
+}
+.feature-content-container{
+    text-align: center;
+}
+.feature-content-container p{
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 0px;
+}
+h3{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 21px;
+    padding: 0px;
+    line-height: 1.3em;
+}

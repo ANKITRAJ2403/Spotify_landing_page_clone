@@ -1,0 +1,55 @@
+#container-1-body {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+}
+.image-container{
+    display: flex;
+    position: relative;
+    width: 40%;
+    padding-top: 100px;
+    justify-content: center;
+}
+.phone-image{
+    width: 286px;
+    height: 573px;
+}
+
+.spotify-image {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    height: 575px;
+    bottom: -59px;
+    z-index: 1;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.spotify-image img{
+    width: 267px;
+    height: 445px;
+}
+
+.container-1-heading{
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 180px 15px 0px 0px;
+    
+}
+.container-1-heading h1{
+    font-size: 64px;
+    color: #fff;
+    max-width: 650px;
+    font-weight: bolder;
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+    margin: 0;
+    padding-bottom: 32px;
+    
+}
+.btn{
+    display: inline-block;
+    align-items: center;
+}

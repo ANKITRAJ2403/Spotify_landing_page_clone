@@ -1,0 +1,14 @@
+.banner-container-2{
+    /* display: flex; */
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    
+}
+.banner-container-2 h1{
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: #fff;
+}
